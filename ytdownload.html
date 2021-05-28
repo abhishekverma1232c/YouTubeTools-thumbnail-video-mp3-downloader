@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Youtube Videos Download Script code - nicesnippets.com</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+    />
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+    ></script>
+    <link rel="stylesheet" href="ytdownload.css" />
+  </head>
+  <body>
+    <nav>
+      <input id="nav-toggle" type="checkbox" />
+      <div class="logo">Yoo<strong>TubeTools</strong></div>
+      <ul class="links">
+        <li><a href="index.html">YouTube Thumbnail Download</a></li>
+        <li><a href="ytdownload.html">Youtube video download</a></li>
+        <li><a href="ytmp3.html">YouTube to mp3</a></li>
+        <li><a href="#term">privacy</a></li>
+
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <label for="nav-toggle" class="icon-burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </label>
+    </nav>
+    <div class="col-md-6 offset-md-3 mt-5">
+      <div class="card">
+        <div class="card-header bg-info">
+          <h5>Youtube Videos Download</h5>
+        </div>
+        <div class="card-body">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="form-group">
+                <label class="text-weight"><b>You Tube Video Link:</b></label>
+                <input
+                  type="txt"
+                  name="link"
+                  onclick="GFG_UP()"
+                  class="form-control link"
+                  required
+                />
+              </div>
+            </div>
+          </div>
+          <div class="img">
+            <img src="" id="imagebox" alt="" />
+          </div>
+          <form class="form-download">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="form-group">
+                  <label class="text-weight"
+                    ><b>Select Video Fromate:</b></label
+                  >
+                  <select class="form-control formte" required>
+                    <option selected disabled>Select Video Formate</option>
+                    <option value="mp3">Mp3</option>
+                    <option value="mp4a">144 Mp4</option>
+                    <option value="360">360 Mp4</option>
+                    <option value="480">480 Mp4</option>
+                    <option value="720">720 Mp4</option>
+                    <option value="1080">1080 Mp4</option>
+                    <option value="4k">4k Mp4</option>
+                    <option value="8k">8k Mp4</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="form-group mt-4 download-video">
+                  <button
+                    class="btn btn-success btn-block click-btn-down"
+                    type="submit"
+                  >
+                    Click Me
+                  </button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="ytdownload.js"></script>
+</html>
